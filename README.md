@@ -178,6 +178,8 @@ claude plugin test mods/legal-workbench
 
 Created by Gleb Alikhver.
 
+This project is licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE.md). You may use, copy, and change it for any noncommercial purpose: personal research, coursework, scholarship, teaching, and use by charities, schools, public research organizations, and government institutions. Commercial use, including use by a law firm or company for its business, needs a separate license; open an issue to ask.
+
 - The `citation-format`, `research-protocol`, and `validity-check` skills adapt work by DingDuff Inc. under the DingDuff Skills License 1.0, which permits noncommercial use only. These versions are modified; they are not official and not endorsed by DingDuff Inc. See the `LICENSE.md` file in each skill folder.
 - CourtListener data and the eyecite, reporters-db, and courts-db libraries come from the Free Law Project (BSD-2).
 - Georgia Commons code text is CC0. Federal government works are in the public domain.
