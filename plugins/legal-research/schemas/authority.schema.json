@@ -1,0 +1,613 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the userSoftware/legal-research-powerhouse/schemas/authority.schema.json",
+  "title": "Authority Ledger",
+  "description": "research/<matter>/authorities.json. Architecture ADR-4.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "matter",
+    "closed_universe",
+    "authorities"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "matter": {
+      "type": "string"
+    },
+    "closed_universe": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "authorities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/authority"
+      }
+    },
+    "waivers": {
+      "type": "array",
+      "description": "Audit items the user accepted by hand (ledger.py waive); the Stop hook passes them.",
+      "items": {
+        "type": "object",
+        "required": [
+          "key",
+          "reason"
+        ],
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "by": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "authority": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "status",
+        "source",
+        "citation",
+        "verification"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9.-]*$"
+        },
+        "type": {
+          "enum": [
+            "case",
+            "statute",
+            "constitution",
+            "regulation",
+            "rule",
+            "secondary"
+          ]
+        },
+        "status": {
+          "description": "candidate: seen in search results only. retrieved: full text saved to sources/. Secondary sources (ADR-10): requested, reported, withdrawn.",
+          "enum": [
+            "candidate",
+            "retrieved",
+            "requested",
+            "reported",
+            "withdrawn"
+          ]
+        },
+        "source": {
+          "type": "object",
+          "required": [
+            "system"
+          ],
+          "properties": {
+            "system": {
+              "enum": [
+                "courtlistener",
+                "georgiacommons",
+                "ecfr",
+                "uscode",
+                "govinfo",
+                "federalregister",
+                "congress",
+                "manual",
+                "westlaw-manual",
+                "lexis-manual",
+                "bloomberg-manual",
+                "free"
+              ]
+            },
+            "cluster_id": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "opinion_id": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "opinion_ids": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "gc_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "gc_collection": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "url": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "tool": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "retrieved_by": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "retrieved_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "westlaw_citation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "first_seen_at": {
+          "type": "string"
+        },
+        "retrieved_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "local_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pagination": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "true when the saved text carries star pagination for pincites"
+        },
+        "citation": {
+          "type": "object",
+          "properties": {
+            "case_name_full": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "case_name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "case_name_t6": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reporters": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "volume",
+                  "reporter",
+                  "page"
+                ],
+                "properties": {
+                  "volume": {
+                    "type": "string"
+                  },
+                  "reporter": {
+                    "type": "string"
+                  },
+                  "page": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "other_cites": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "docket_number": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "court_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "court_string": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "date_filed": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "code": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "title": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "section": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "heading": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "cite_as": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "current_through": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "corpus_version": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "version": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "in_force": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "bluebook_academic": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "bluebook_ga_filing": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "bluebook": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "pin": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "verification": {
+          "type": "object",
+          "required": [
+            "existence"
+          ],
+          "properties": {
+            "existence": {
+              "description": "verified: full document retrieved from the source system or matched by citation lookup. listed: appeared in search results only. manual: reported by the user from a paywalled database (ADR-10).",
+              "enum": [
+                "verified",
+                "listed",
+                "unverified",
+                "failed",
+                "manual"
+              ]
+            },
+            "name_match": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "method": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "checked_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "treatment": {
+          "type": "object",
+          "properties": {
+            "level": {
+              "enum": [
+                "heavyweight",
+                "lightweight",
+                "none"
+              ]
+            },
+            "verdict": {
+              "enum": [
+                "VALID",
+                "VALID BUT NARROWED",
+                "AT RISK",
+                "QUESTIONED",
+                "INVALID FOR THIS PROPOSITION",
+                "INVALID",
+                "INDETERMINATE",
+                null
+              ]
+            },
+            "confidence": {
+              "enum": [
+                "low",
+                "moderate",
+                null
+              ]
+            },
+            "citing_count": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "sampled": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "flags": {
+              "type": "array"
+            },
+            "manual_keycite": {
+              "type": "object",
+              "properties": {
+                "required": {
+                  "type": "boolean"
+                },
+                "done": {
+                  "type": "boolean"
+                },
+                "result": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "date": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "propositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "text"
+            ],
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "pin": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "quote": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "anchor_status": {
+                "enum": [
+                  "anchored",
+                  "anchor_failed",
+                  "no_quote_claimed"
+                ]
+              }
+            }
+          }
+        },
+        "quote_checks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "quote": {
+                "type": "string"
+              },
+              "verified": {
+                "type": "boolean"
+              },
+              "occurrences": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "method": {
+                "type": "string"
+              },
+              "checked_at": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "secondary_kind": {
+          "enum": [
+            "restatement",
+            "treatise",
+            "encyclopedia",
+            "alr",
+            "law_review",
+            "practice_guide",
+            "other"
+          ]
+        },
+        "request_id": {
+          "type": "string",
+          "pattern": "^SR-\\d{3,}$"
+        },
+        "request": {
+          "type": "object",
+          "description": "The SR request spec as rendered (ADR-10)."
+        },
+        "report": {
+          "type": "object",
+          "properties": {
+            "summary": {
+              "type": "string"
+            },
+            "quotes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "text",
+                  "sha256"
+                ],
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "pin": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sha256": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "points_to": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "points_to_unresolved": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "keycite": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "disclosure": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

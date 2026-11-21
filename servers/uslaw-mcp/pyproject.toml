@@ -1,0 +1,13 @@
+[project]
+name = "uslaw-mcp"
+version = "0.1.0"
+description = "MCP server for federal legal sources: eCFR, Federal Register, GovInfo, Congress.gov, Regulations.gov (architecture section 3.2)"
+requires-python = ">=3.12,<3.13"
+dependencies = ["fastmcp==3.4.0", "httpx>=0.28"]
+
+[project.scripts]
+uslaw-mcp = "uslaw_mcp.server:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"

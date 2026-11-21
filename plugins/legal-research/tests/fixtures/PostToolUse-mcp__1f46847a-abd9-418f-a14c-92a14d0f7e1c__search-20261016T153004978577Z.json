@@ -1,0 +1,38 @@
+{
+  "session_id": "1bb9dc80-95dd-4299-b5f0-62d8e2d85bf4",
+  "transcript_path": "C:\\Users\\user\\.claude\\projects\\C--repo\\1bb9dc80-95dd-4299-b5f0-62d8e2d85bf4.jsonl",
+  "cwd": "C:\\repo",
+  "scratchpad_dir": "C:\\Users\\user\\AppData\\Local\\Temp\\claude\\C--repo\\1bb9dc80-95dd-4299-b5f0-62d8e2d85bf4\\scratchpad",
+  "prompt_id": "7f58f280-bc2c-41ff-8eb5-5d4d2d8c2648",
+  "permission_mode": "auto",
+  "effort": {
+    "level": "high"
+  },
+  "hook_event_name": "PostToolUse",
+  "tool_name": "mcp__1f46847a-abd9-418f-a14c-92a14d0f7e1c__search",
+  "tool_input": {
+    "q": "caseName:\"Becks v. Pierce\"",
+    "type": "o",
+    "fields": [
+      "caseName",
+      "cluster_id",
+      "court_id",
+      "dateFiled",
+      "citation",
+      "absolute_url"
+    ],
+    "num_results": 5
+  },
+  "tool_response": [
+    {
+      "type": "text",
+      "text": "{\n  \"query_id\": \"182c17ba\",\n  \"count\": 1,\n  \"results\": [\n    {\n      \"absolute_url\": \"/opinion/1266402/becks-v-pierce/\",\n      \"caseName\": \"Becks v. Pierce\",\n      \"citation\": [\n        \"638 S.E.2d 390\",\n        \"282 Ga. App. 229\",\n        \"2006 Fulton County D. Rep. 3412\",\n        \"2006 Ga. App. LEXIS 1360\"\n      ],\n      \"cluster_id\": 1266402,\n      \"court_id\": \"gactapp\",\n      \"dateFiled\": \"2006-11-02\",\n      \"opinion_id\": 1266402,\n      \"cluster_opinions\": [\n        {\n          \"id\": 1266402,\n          \"type\": \"combined-opinion\",\n          \"author_id\": 7169\n        }\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "tool_use_id": "toolu_01UFn1HFpvZYatDXiRw3SJPQ",
+  "duration_ms": 3464,
+  "mcp_server": {
+    "name": "1f46847a-abd9-418f-a14c-92a14d0f7e1c",
+    "source": "sdk"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "legal-research",
+  "version": "0.3.2",
+  "description": "Verified legal research for Claude Code: every authority retrieved, ledgered, treatment-screened, and Bluebook-formatted before it reaches a draft",
+  "author": {
+    "name": "Gleb Alikhver"
+  },
+  "keywords": ["legal", "research", "courtlistener", "bluebook", "georgia", "citation"]
+}

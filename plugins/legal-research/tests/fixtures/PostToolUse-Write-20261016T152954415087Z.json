@@ -1,0 +1,27 @@
+{
+  "session_id": "1bb9dc80-95dd-4299-b5f0-62d8e2d85bf4",
+  "transcript_path": "C:\\Users\\user\\.claude\\projects\\C--repo\\1bb9dc80-95dd-4299-b5f0-62d8e2d85bf4.jsonl",
+  "cwd": "C:\\repo",
+  "scratchpad_dir": "C:\\Users\\user\\AppData\\Local\\Temp\\claude\\C--repo\\1bb9dc80-95dd-4299-b5f0-62d8e2d85bf4\\scratchpad",
+  "prompt_id": "7f58f280-bc2c-41ff-8eb5-5d4d2d8c2648",
+  "permission_mode": "auto",
+  "effort": {
+    "level": "high"
+  },
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Write",
+  "tool_input": {
+    "file_path": "C:\\repo\\.session\\hook-test.md",
+    "content": "hook sampling test\n"
+  },
+  "tool_response": {
+    "type": "create",
+    "filePath": "C:\\repo\\.session\\hook-test.md",
+    "content": "hook sampling test\n",
+    "structuredPatch": [],
+    "originalFile": null,
+    "userModified": false
+  },
+  "tool_use_id": "toolu_011v3ivRxSCqLFbzLNjawrAw",
+  "duration_ms": 35
+}

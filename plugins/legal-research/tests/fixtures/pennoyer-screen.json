@@ -1,0 +1,127 @@
+{
+ "_source": "research/civ-pro/pennoyer-v-neff, CourtListener search and search_document results received 2026-10-17",
+ "entry": {
+  "id": "cl-cluster-89656",
+  "type": "case",
+  "status": "retrieved",
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 89656,
+   "opinion_id": 9417104,
+   "opinion_ids": [
+    9417104,
+    9417105,
+    89656
+   ],
+   "url": "https://www.courtlistener.com/opinion/89656/pennoyer-v-neff/",
+   "tool": "search"
+  },
+  "citation": {
+   "reporters": [
+    {
+     "volume": "95",
+     "reporter": "U.S.",
+     "page": "714",
+     "type": 1
+    },
+    {
+     "volume": "24",
+     "reporter": "L. Ed.",
+     "page": "565",
+     "type": 1
+    }
+   ],
+   "other_cites": [
+    "1877 U.S. LEXIS 2227"
+   ],
+   "case_name": "Pennoyer v. Neff",
+   "court_id": "scotus",
+   "date_filed": "1878-01-21",
+   "case_name_full": "Pennoyer v. Neff"
+  }
+ },
+ "citing": {
+  "110170": {
+   "caseName": "World-Wide Volkswagen Corp. v. Woodson",
+   "court_id": "scotus",
+   "dateFiled": "1980-01-21",
+   "citeCount": 8803,
+   "citation": [
+    "62 L. Ed. 2d 490",
+    "100 S. Ct. 559",
+    "444 U.S. 286",
+    "1980 U.S. LEXIS 65"
+   ],
+   "opinion_id": 110170,
+   "cluster_opinions": [
+    {
+     "id": 110170,
+     "type": "combined-opinion",
+     "author_id": 3447
+    }
+   ]
+  },
+  "2649076": {
+   "caseName": "Daimler AG v. Bauman",
+   "court_id": "scotus",
+   "dateFiled": "2014-01-14",
+   "citeCount": 5003,
+   "citation": [
+    "187 L. Ed. 2d 624",
+    "134 S. Ct. 746",
+    "2014 U.S. LEXIS 644",
+    "82 U.S.L.W. 4043",
+    "571 U.S. 117",
+    "24 Fla. L. Weekly Fed. S 503",
+    "2014 WL 113486"
+   ],
+   "opinion_id": 2649076,
+   "cluster_opinions": [
+    {
+     "id": 2649076,
+     "type": "combined-opinion"
+    }
+   ]
+  },
+  "109721": {
+   "caseName": "Shaffer v. Heitner",
+   "court_id": "scotus",
+   "dateFiled": "1977-06-24",
+   "citeCount": 3004,
+   "citation": [
+    "53 L. Ed. 2d 683",
+    "97 S. Ct. 2569",
+    "433 U.S. 186",
+    "1977 U.S. LEXIS 139"
+   ],
+   "opinion_id": 109721,
+   "cluster_opinions": [
+    {
+     "id": 109721,
+     "type": "combined-opinion",
+     "author_id": 2054
+    }
+   ]
+  }
+ },
+ "passages": [
+  {
+   "citing_opinion_id": 110170,
+   "position": 16115,
+   "query": "Pennoyer",
+   "text": "ss has increased the flow of commerce between the States, the need for jurisdiction over nonresidents has undergone a similar increase. At the same time, progress in communications and transportation has made the defense of a suit in a foreign tribunal less burdensome. In response to these changes, the requirements for personal jurisdiction over nonresidents have evolved from the rigid rule of Pennoyer v. Neff, 95 U. S. 714 , to the flexible standard of International Shoe Co. v. Washington,"
+  },
+  {
+   "citing_opinion_id": 2649076,
+   "position": 35371,
+   "query": "Pennoyer",
+   "text": "101 Harv. L.Rev. 610 , 628 (1988) ). International Shoe 's momentous departure from Pennoyer 's rigidly territorial focus, we have noted, unleashed a rapid expansion of tribunals' ability to hear claims against out-of-state defendants when the episode-in-suit occurred in the forum or the defendant purposefully availed itself of the forum. 6"
+  },
+  {
+   "citing_opinion_id": 109721,
+   "position": 18448,
+   "query": "Pennoyer",
+   "text": "d on the court's power over property within its territory, the action is called \"in rem\" or \"quasi in rem.\" The effect of a judgment in such a case is limited to the property that supports jurisdiction and does not impose a personal liability on the property owner, since he is not before the court. [17] In Pennoyer 's terms, the owner is affected only \"indirectly\" by an in rem judgment adverse to his interest in the property subject to the court's disposition. By concluding that \"[t]he authority of every tribunal is necessarily restricted by the territorial limits of the State in which it is established,\""
+  }
+ ]
+}

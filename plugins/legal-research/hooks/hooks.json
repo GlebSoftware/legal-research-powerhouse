@@ -1,0 +1,62 @@
+{
+  "description": "legal-research: citation gate, ledger ingest, session context, changed-file log, Stop citation audit",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --quiet --script \"${CLAUDE_PLUGIN_ROOT}/scripts/session_hooks.py\" start",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --quiet --script \"${CLAUDE_PLUGIN_ROOT}/scripts/cite_gate.py\"",
+            "timeout": 60
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "mcp__.*__(search|get_more_results|read_document|search_document|get_endpoint_item|call_endpoint|analyze_citations|resume_citation_analysis|code_lookup_section|code_lookup_sections|code_get_chapter|constitution_lookup|opinions_lookup|opinions_get_text|verify_quote|fetch|ecfr_section|fr_document|govinfo_package|uscode_section|jm_section)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --quiet --script \"${CLAUDE_PLUGIN_ROOT}/scripts/ledger.py\" ingest",
+            "timeout": 60
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --quiet --script \"${CLAUDE_PLUGIN_ROOT}/scripts/session_hooks.py\" changed",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --quiet --script \"${CLAUDE_PLUGIN_ROOT}/scripts/session_hooks.py\" stop",
+            "timeout": 300
+          }
+        ]
+      }
+    ]
+  }
+}

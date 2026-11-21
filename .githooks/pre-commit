@@ -1,0 +1,5 @@
+#!/bin/sh
+# Frontmatter check for every SKILL.md, agent, and command (DingDuff issue #35).
+UV=uv
+command -v uv >/dev/null 2>&1 || UV="$HOME/.local/bin/uv"
+exec "$UV" run --quiet python scripts/validate_skills.py

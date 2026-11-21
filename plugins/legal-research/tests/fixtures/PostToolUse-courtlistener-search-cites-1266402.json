@@ -1,0 +1,29 @@
+{
+ "hook_event_name": "PostToolUse",
+ "tool_name": "mcp__1f46847a-abd9-418f-a14c-92a14d0f7e1c__search",
+ "tool_input": {
+  "q": "cites:(1266402)",
+  "type": "o",
+  "order_by": "dateFiled desc",
+  "fields": [
+   "caseName",
+   "cluster_id",
+   "court_id",
+   "dateFiled",
+   "citeCount",
+   "citation"
+  ],
+  "num_results": 20
+ },
+ "tool_response": [
+  {
+   "type": "text",
+   "text": "{\n  \"query_id\": \"6e98b3c8\",\n  \"count\": 7,\n  \"results\": [\n    {\n      \"caseName\": \"Andria Kendrick, as Surviving Spouse of K. Chad Kendrick v. Rjm Trading, Inc.\",\n      \"citation\": [],\n      \"citeCount\": 0,\n      \"cluster_id\": 10729389,\n      \"court_id\": \"gactapp\",\n      \"dateFiled\": \"2025-10-31\",\n      \"opinion_id\": 11195974,\n      \"cluster_opinions\": [\n        {\n          \"id\": 11195974,\n          \"type\": \"combined-opinion\"\n        }\n      ]\n    },\n    {\n      \"caseName\": \"Sepid, LLC v. Deven Merchant\",\n      \"citation\": [],\n      \"citeCount\": 0,\n      \"cluster_id\": 10338072,\n      \"court_id\": \"gactapp\",\n      \"dateFiled\": \"2025-02-24\",\n      \"opinion_id\": 10804660,\n      \"cluster_opinions\": [\n        {\n          \"id\": 10804660,\n          \"type\": \"combined-opinion\"\n        }\n      ]\n    },\n    {\n      \"caseName\": \"Monterrey Mex, Inc. v. Jamel Lamarr Collins\",\n      \"citation\": [],\n      \"citeCount\": 0,\n      \"cluster_id\": 9769081,\n      \"court_id\": \"gactapp\",\n      \"dateFiled\": \"2024-06-24\",\n      \"opinion_id\": 10235693,\n      \"cluster_opinions\": [\n        {\n          \"id\": 10235693,\n          \"type\": \"combined-opinion\"\n        }\n      ]\n    },\n    {\n      \"caseName\": \"Estate of Gutierrez Ex Rel. Jaramillo v. Meteor Monument\",\n      \"citation\": [\n        \"274 P.3d 97\",\n        \"2012 WL 1232664\"\n      ],\n      \"citeCount\": 24,\n      \"cluster_id\": 2344381,\n      \"court_id\": \"nm\",\n      \"dateFiled\": \"2012-02-22\",\n      \"opinion_id\": 2344381,\n      \"cluster_opinions\": [\n        {\n          \"id\": 2344381,\n          \"type\": \"combined-opinion\",\n          \"author_id\": 5142\n        }\n      ]\n    },\n    {\n      \"caseName\": \"Estate of Gutierrez v. Meteor Monument\",\n      \"citation\": [\n        \"2012 NMSC 4\",\n        \"1 N.M. Ct. App. 224\",\n        \"2012 NMSC 004\"\n      ],\n      \"citeCount\": 24,\n      \"cluster_id\": 891855,\n      \"court_id\": \"nm\",\n      \"dateFiled\": \"2012-02-22\",\n      \"opinion_id\": 891855,\n      \"cluster_opinions\": [\n        {\n          \"id\": 891855,\n          \"type\": \"combined-opinion\"\n        }\n      ]\n    },\n    {\n      \"caseName\": \"Shin v. ESTATE OF CAMACHO\",\n      \"citation\": [\n        \"690 S.E.2d 444\",\n        \"302 Ga. App. 243\",\n        \"2010 Fulton County D. Rep. 206\",\n        \"2010 Ga. App. LEXIS 40\"\n      ],\n      \"citeCount\": 3,\n      \"cluster_id\": 1405682,\n      \"court_id\": \"gactapp\",\n      \"dateFiled\": \"2010-01-21\",\n      \"opinion_id\": 1405682,\n      \"cluster_opinions\": [\n        {\n          \"id\": 1405682,\n          \"type\": \"combined-opinion\",\n          \"author_id\": 7155\n        }\n      ]\n    },\n    {\n      \"caseName\": \"Capp v. Carlito's Mexican Bar & Grill 1, Inc.\",\n      \"citation\": [\n        \"655 S.E.2d 232\",\n        \"288 Ga. App. 779\",\n        \"2007 Fulton County D. Rep. 3511\",\n        \"2007 Ga. App. LEXIS 1211\"\n      ],\n      \"citeCount\": 4,\n      \"cluster_id\": 1223841,\n      \"court_id\": \"gactapp\",\n      \"dateFiled\": \"2007-11-09\",\n      \"opinion_id\": 1223841,\n      \"cluster_opinions\": [\n        {\n          \"id\": 1223841,\n          \"type\": \"combined-opinion\",\n          \"author_id\": 7140\n        }\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "tool_use_id": "toolu_01UL45u7TEPtVMBcY8rbonU1",
+ "mcp_server": {
+  "name": "1f46847a-abd9-418f-a14c-92a14d0f7e1c",
+  "source": "sdk"
+ }
+}

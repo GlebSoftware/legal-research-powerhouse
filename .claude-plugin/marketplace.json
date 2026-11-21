@@ -1,0 +1,23 @@
+{
+  "name": "alr",
+  "owner": {
+    "name": "Gleb Alikhver"
+  },
+  "metadata": {
+    "description": "Personal marketplace for the AI-Powered Legal Research plugin"
+  },
+  "plugins": [
+    {
+      "name": "legal-research",
+      "source": "./plugins/legal-research",
+      "description": "Verified legal research for Claude Code: CourtListener, Georgia Commons, federal sources, authority ledger, Bluebook formatting, treatment screening",
+      "version": "0.3.2"
+    },
+    {
+      "name": "legal-workbench",
+      "source": "./mods/legal-workbench",
+      "description": "Claude Code mod for the legal-research plugin: routing context, legal tool rows, matter band and panes, tool.call citation gate (ADR-9)",
+      "version": "0.3.1"
+    }
+  ]
+}

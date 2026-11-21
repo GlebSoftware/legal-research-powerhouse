@@ -1,0 +1,9 @@
+{
+  "name": "legal-workbench",
+  "version": "0.3.1",
+  "description": "Legal research workbench for this repo: hidden matter context and protocol (H0), legal tool rows, spinner, status line, and matter band (H1), Authorities pane and tool.call citation gate (H2), Sources pane and /review (H3), Home, Drafts, Guide, and Westlaw report panes with matter, jurisdiction, and mode pickers (H4)",
+  "author": {
+    "name": "Gleb Alikhver"
+  },
+  "types": "./types/index.d.ts"
+}

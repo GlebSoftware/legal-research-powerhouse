@@ -1,0 +1,7 @@
+{
+  "hook_event_name": "PostToolUse",
+  "tool_name": "mcp__1f46847a-abd9-418f-a14c-92a14d0f7e1c__get_endpoint_item",
+  "tool_input": {"endpoint_id": "clusters", "item_id": 1266402, "fields": ["id", "case_name", "case_name_full", "citations", "date_filed", "sub_opinions", "absolute_url"]},
+  "tool_response": [{"type": "text", "text": "{\"id\": 1266402, \"absolute_url\": \"/opinion/1266402/becks-v-pierce/\", \"sub_opinions\": [\"https://www.courtlistener.com/api/rest/v4/opinions/1266402/\"], \"citations\": [{\"volume\": \"638\", \"reporter\": \"S.E.2d\", \"page\": \"390\", \"type\": 3}, {\"volume\": \"282\", \"reporter\": \"Ga. App.\", \"page\": \"229\", \"type\": 2}, {\"volume\": \"2006\", \"reporter\": \"Fulton County D. Rep.\", \"page\": \"3412\", \"type\": 2}, {\"volume\": \"2006\", \"reporter\": \"Ga. App. LEXIS\", \"page\": \"1360\", \"type\": 2}], \"date_filed\": \"2006-11-02\", \"case_name\": \"Becks v. Pierce\", \"case_name_full\": \"Becks v. Pierce\"}"}],
+  "mcp_server": {"name": "1f46847a-abd9-418f-a14c-92a14d0f7e1c", "source": "sdk"}
+}

@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "georgiacommons": {
+      "type": "http",
+      "url": "https://mcp.georgiacommons.org/mcp"
+    },
+    "uslaw": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "--quiet",
+        "--script",
+        "${CLAUDE_PLUGIN_ROOT}/scripts/uslaw_server.py"
+      ]
+    }
+  }
+}

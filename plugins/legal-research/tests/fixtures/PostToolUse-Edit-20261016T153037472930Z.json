@@ -1,0 +1,41 @@
+{
+  "session_id": "1bb9dc80-95dd-4299-b5f0-62d8e2d85bf4",
+  "transcript_path": "C:\\Users\\user\\.claude\\projects\\C--repo\\1bb9dc80-95dd-4299-b5f0-62d8e2d85bf4.jsonl",
+  "cwd": "C:\\repo\\.session\\hook-samples",
+  "scratchpad_dir": "C:\\Users\\user\\AppData\\Local\\Temp\\claude\\C--repo\\1bb9dc80-95dd-4299-b5f0-62d8e2d85bf4\\scratchpad",
+  "prompt_id": "7f58f280-bc2c-41ff-8eb5-5d4d2d8c2648",
+  "permission_mode": "auto",
+  "effort": {
+    "level": "high"
+  },
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Edit",
+  "tool_input": {
+    "file_path": "C:\\repo\\.session\\hook-test.md",
+    "old_string": "hook sampling test",
+    "new_string": "hook sampling test, edited",
+    "replace_all": false
+  },
+  "tool_response": {
+    "filePath": "C:\\repo\\.session\\hook-test.md",
+    "oldString": "hook sampling test",
+    "newString": "hook sampling test, edited",
+    "originalFile": "hook sampling test\n",
+    "structuredPatch": [
+      {
+        "oldStart": 1,
+        "oldLines": 1,
+        "newStart": 1,
+        "newLines": 1,
+        "lines": [
+          "-hook sampling test",
+          "+hook sampling test, edited"
+        ]
+      }
+    ],
+    "userModified": false,
+    "replaceAll": false
+  },
+  "tool_use_id": "toolu_01U3fr4hgxHHMCJ7eQg3gVwS",
+  "duration_ms": 33
+}

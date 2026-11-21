@@ -1,0 +1,910 @@
+{
+ "_about": "Built by scripts/build_jurisdictions.py from courts-db 0.10.27 and 28 U.S.C. § 41 (local U.S. Code mirror). Court ids are CourtListener's.",
+ "date_corrected": [
+  "njd"
+ ],
+ "default": "federal",
+ "jurisdictions": [
+  {
+   "id": "federal",
+   "label": "Federal (all federal courts)",
+   "binding": [
+    "scotus",
+    "ca1",
+    "ca2",
+    "ca3",
+    "ca4",
+    "ca5",
+    "ca6",
+    "ca7",
+    "ca8",
+    "ca9",
+    "ca10",
+    "ca11",
+    "cadc",
+    "cafc"
+   ],
+   "federal": [
+    "akd",
+    "almd",
+    "alnd",
+    "alsd",
+    "ared",
+    "arwd",
+    "azd",
+    "cacd",
+    "caed",
+    "cand",
+    "casd",
+    "cod",
+    "ctd",
+    "dcd",
+    "ded",
+    "flmd",
+    "flnd",
+    "flsd",
+    "gamd",
+    "gand",
+    "gasd",
+    "hid",
+    "iand",
+    "iasd",
+    "idd",
+    "ilcd",
+    "ilnd",
+    "ilsd",
+    "innd",
+    "insd",
+    "ksd",
+    "kyed",
+    "kywd",
+    "laed",
+    "lamd",
+    "lawd",
+    "mad",
+    "mdd",
+    "med",
+    "mied",
+    "miwd",
+    "mnd",
+    "moed",
+    "mowd",
+    "msnd",
+    "mssd",
+    "mtd",
+    "ncd",
+    "nced",
+    "ncmd",
+    "ncwd",
+    "ndd",
+    "ned",
+    "nhd",
+    "njd",
+    "nmd",
+    "nvd",
+    "nyed",
+    "nynd",
+    "nysd",
+    "nywd",
+    "ohnd",
+    "ohsd",
+    "okd",
+    "oked",
+    "oknd",
+    "okwd",
+    "ord",
+    "paed",
+    "pamd",
+    "pawd",
+    "rid",
+    "scd",
+    "sdd",
+    "tned",
+    "tnmd",
+    "tnwd",
+    "txed",
+    "txnd",
+    "txsd",
+    "txwd",
+    "utd",
+    "vaed",
+    "vawd",
+    "vtd",
+    "waed",
+    "wawd",
+    "wied",
+    "wiwd",
+    "wvad",
+    "wvnb",
+    "wvnd",
+    "wvsd",
+    "wyd"
+   ],
+   "statutes": "uslaw-mcp: U.S. Code (local mirror), eCFR, Federal Register, GovInfo",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "alabama",
+   "label": "Alabama",
+   "binding": [
+    "ala",
+    "alacivapp",
+    "alacrimapp"
+   ],
+   "federal": [
+    "ca11",
+    "almd",
+    "alnd",
+    "alsd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "alaska",
+   "label": "Alaska",
+   "binding": [
+    "alaska",
+    "alaskactapp"
+   ],
+   "federal": [
+    "ca9",
+    "akd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "arizona",
+   "label": "Arizona",
+   "binding": [
+    "ariz",
+    "arizctapp",
+    "ariztaxct"
+   ],
+   "federal": [
+    "ca9",
+    "azd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "arkansas",
+   "label": "Arkansas",
+   "binding": [
+    "ark",
+    "arkctapp",
+    "arkworkcompcom"
+   ],
+   "federal": [
+    "ca8",
+    "ared",
+    "arwd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "california",
+   "label": "California",
+   "binding": [
+    "cal",
+    "calappdeptsuper",
+    "calctapp",
+    "calctapp1d",
+    "calctapp2d",
+    "calctapp3d",
+    "calctapp4d",
+    "calctapp5d",
+    "calctapp6d"
+   ],
+   "federal": [
+    "ca9",
+    "cacd",
+    "caed",
+    "cand",
+    "casd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "colorado",
+   "label": "Colorado",
+   "binding": [
+    "colo",
+    "coloctapp"
+   ],
+   "federal": [
+    "ca10",
+    "cod"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "connecticut",
+   "label": "Connecticut",
+   "binding": [
+    "conn",
+    "connappct"
+   ],
+   "federal": [
+    "ca2",
+    "ctd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "delaware",
+   "label": "Delaware",
+   "binding": [
+    "del",
+    "delch",
+    "delfamct"
+   ],
+   "federal": [
+    "ca3",
+    "ded"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "district-of-columbia",
+   "label": "District of Columbia",
+   "binding": [
+    "dc"
+   ],
+   "federal": [
+    "cadc",
+    "dcd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "florida",
+   "label": "Florida",
+   "binding": [
+    "fla",
+    "fladistctapp",
+    "fladistctapp1",
+    "fladistctapp2",
+    "fladistctapp3",
+    "fladistctapp4",
+    "fladistctapp5",
+    "fladistctapp6"
+   ],
+   "federal": [
+    "ca11",
+    "flmd",
+    "flnd",
+    "flsd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "georgia",
+   "label": "Georgia",
+   "binding": [
+    "ga",
+    "gactapp"
+   ],
+   "federal": [
+    "ca11",
+    "gamd",
+    "gand",
+    "gasd"
+   ],
+   "statutes": "Georgia Commons: O.C.G.A. and the Georgia Constitution",
+   "citation_mode": "ga"
+  },
+  {
+   "id": "hawaii",
+   "label": "Hawaii",
+   "binding": [
+    "haw",
+    "hawapp"
+   ],
+   "federal": [
+    "ca9",
+    "hid"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "idaho",
+   "label": "Idaho",
+   "binding": [
+    "idaho",
+    "idahoctapp"
+   ],
+   "federal": [
+    "ca9",
+    "idd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "illinois",
+   "label": "Illinois",
+   "binding": [
+    "ill",
+    "illappct"
+   ],
+   "federal": [
+    "ca7",
+    "ilcd",
+    "ilnd",
+    "ilsd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "indiana",
+   "label": "Indiana",
+   "binding": [
+    "ind",
+    "indctapp",
+    "indtc"
+   ],
+   "federal": [
+    "ca7",
+    "innd",
+    "insd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "iowa",
+   "label": "Iowa",
+   "binding": [
+    "iowa",
+    "iowactapp"
+   ],
+   "federal": [
+    "ca8",
+    "iand",
+    "iasd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "kansas",
+   "label": "Kansas",
+   "binding": [
+    "kan",
+    "kanctapp"
+   ],
+   "federal": [
+    "ca10",
+    "ksd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "kentucky",
+   "label": "Kentucky",
+   "binding": [
+    "ky",
+    "kyctapp"
+   ],
+   "federal": [
+    "ca6",
+    "kyed",
+    "kywd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "louisiana",
+   "label": "Louisiana",
+   "binding": [
+    "la",
+    "lactapp"
+   ],
+   "federal": [
+    "ca5",
+    "laed",
+    "lamd",
+    "lawd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "maine",
+   "label": "Maine",
+   "binding": [
+    "me"
+   ],
+   "federal": [
+    "ca1",
+    "med"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "maryland",
+   "label": "Maryland",
+   "binding": [
+    "md",
+    "mdctspecapp"
+   ],
+   "federal": [
+    "ca4",
+    "mdd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "massachusetts",
+   "label": "Massachusetts",
+   "binding": [
+    "mass",
+    "massappct"
+   ],
+   "federal": [
+    "ca1",
+    "mad"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "michigan",
+   "label": "Michigan",
+   "binding": [
+    "mich",
+    "michctapp"
+   ],
+   "federal": [
+    "ca6",
+    "mied",
+    "miwd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "minnesota",
+   "label": "Minnesota",
+   "binding": [
+    "minn",
+    "minnctapp"
+   ],
+   "federal": [
+    "ca8",
+    "mnd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "mississippi",
+   "label": "Mississippi",
+   "binding": [
+    "miss",
+    "missctapp"
+   ],
+   "federal": [
+    "ca5",
+    "msnd",
+    "mssd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "missouri",
+   "label": "Missouri",
+   "binding": [
+    "mo",
+    "moctapp",
+    "moctapped",
+    "moctappsd",
+    "moctappwd"
+   ],
+   "federal": [
+    "ca8",
+    "moed",
+    "mowd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "montana",
+   "label": "Montana",
+   "binding": [
+    "mont"
+   ],
+   "federal": [
+    "ca9",
+    "mtd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "nebraska",
+   "label": "Nebraska",
+   "binding": [
+    "neb",
+    "nebctapp"
+   ],
+   "federal": [
+    "ca8",
+    "ned"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "nevada",
+   "label": "Nevada",
+   "binding": [
+    "nev",
+    "nevapp"
+   ],
+   "federal": [
+    "ca9",
+    "nvd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "new-hampshire",
+   "label": "New Hampshire",
+   "binding": [
+    "nh"
+   ],
+   "federal": [
+    "ca1",
+    "nhd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "new-jersey",
+   "label": "New Jersey",
+   "binding": [
+    "nj",
+    "njtaxct"
+   ],
+   "federal": [
+    "ca3",
+    "njd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "new-mexico",
+   "label": "New Mexico",
+   "binding": [
+    "nm",
+    "nmctapp"
+   ],
+   "federal": [
+    "ca10",
+    "nmd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "new-york",
+   "label": "New York",
+   "binding": [
+    "ny",
+    "nyappdiv",
+    "nyappterm"
+   ],
+   "federal": [
+    "ca2",
+    "nyed",
+    "nynd",
+    "nysd",
+    "nywd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "north-carolina",
+   "label": "North Carolina",
+   "binding": [
+    "nc",
+    "ncctapp",
+    "ncsuperct",
+    "ncworkcompcom"
+   ],
+   "federal": [
+    "ca4",
+    "ncd",
+    "nced",
+    "ncmd",
+    "ncwd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "north-dakota",
+   "label": "North Dakota",
+   "binding": [
+    "nd",
+    "ndctapp"
+   ],
+   "federal": [
+    "ca8",
+    "ndd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "ohio",
+   "label": "Ohio",
+   "binding": [
+    "ohio",
+    "ohioctapp",
+    "ohioctcl"
+   ],
+   "federal": [
+    "ca6",
+    "ohnd",
+    "ohsd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "oklahoma",
+   "label": "Oklahoma",
+   "binding": [
+    "oklacrimapp",
+    "okla",
+    "oklacivapp",
+    "oklacoj"
+   ],
+   "federal": [
+    "ca10",
+    "okd",
+    "oked",
+    "oknd",
+    "okwd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "oregon",
+   "label": "Oregon",
+   "binding": [
+    "or",
+    "orctapp",
+    "ortc"
+   ],
+   "federal": [
+    "ca9",
+    "ord"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "pennsylvania",
+   "label": "Pennsylvania",
+   "binding": [
+    "pa",
+    "cjdpa",
+    "pacommwct",
+    "pasuperct"
+   ],
+   "federal": [
+    "ca3",
+    "paed",
+    "pamd",
+    "pawd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "rhode-island",
+   "label": "Rhode Island",
+   "binding": [
+    "ri",
+    "risuperct"
+   ],
+   "federal": [
+    "ca1",
+    "rid"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "south-carolina",
+   "label": "South Carolina",
+   "binding": [
+    "sc",
+    "ctchansc",
+    "scctapp"
+   ],
+   "federal": [
+    "ca4",
+    "scd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "south-dakota",
+   "label": "South Dakota",
+   "binding": [
+    "sd"
+   ],
+   "federal": [
+    "ca8",
+    "sdd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "tennessee",
+   "label": "Tennessee",
+   "binding": [
+    "tenn",
+    "tenncrimapp",
+    "tennctapp"
+   ],
+   "federal": [
+    "ca6",
+    "tned",
+    "tnmd",
+    "tnwd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "texas",
+   "label": "Texas",
+   "binding": [
+    "tex",
+    "texapp",
+    "texcrimapp"
+   ],
+   "federal": [
+    "ca5",
+    "txed",
+    "txnd",
+    "txsd",
+    "txwd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "utah",
+   "label": "Utah",
+   "binding": [
+    "utah",
+    "utahctapp"
+   ],
+   "federal": [
+    "ca10",
+    "utd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "vermont",
+   "label": "Vermont",
+   "binding": [
+    "vt"
+   ],
+   "federal": [
+    "ca2",
+    "vtd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "virginia",
+   "label": "Virginia",
+   "binding": [
+    "va",
+    "vactapp"
+   ],
+   "federal": [
+    "ca4",
+    "vaed",
+    "vawd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "washington",
+   "label": "Washington",
+   "binding": [
+    "wash",
+    "washctapp"
+   ],
+   "federal": [
+    "ca9",
+    "waed",
+    "wawd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "west-virginia",
+   "label": "West Virginia",
+   "binding": [
+    "wva",
+    "wvactapp"
+   ],
+   "federal": [
+    "ca4",
+    "wvad",
+    "wvnb",
+    "wvnd",
+    "wvsd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "wisconsin",
+   "label": "Wisconsin",
+   "binding": [
+    "wis",
+    "wisctapp"
+   ],
+   "federal": [
+    "ca7",
+    "wied",
+    "wiwd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  },
+  {
+   "id": "wyoming",
+   "label": "Wyoming",
+   "binding": [
+    "wyo"
+   ],
+   "federal": [
+    "ca10",
+    "wyd"
+   ],
+   "statutes": "the state legislature's official code site, read with WebFetch, saved to sources/, ledgered with ledger.py upsert",
+   "citation_mode": "academic"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "session_id": "1bb9dc80-95dd-4299-b5f0-62d8e2d85bf4",
+  "transcript_path": "C:\\Users\\user\\.claude\\projects\\C--repo\\1bb9dc80-95dd-4299-b5f0-62d8e2d85bf4.jsonl",
+  "cwd": "C:\\repo\\.session\\hook-samples",
+  "scratchpad_dir": "C:\\Users\\user\\AppData\\Local\\Temp\\claude\\C--repo\\1bb9dc80-95dd-4299-b5f0-62d8e2d85bf4\\scratchpad",
+  "prompt_id": "7f58f280-bc2c-41ff-8eb5-5d4d2d8c2648",
+  "permission_mode": "auto",
+  "effort": {
+    "level": "high"
+  },
+  "hook_event_name": "PostToolUse",
+  "tool_name": "mcp__1f46847a-abd9-418f-a14c-92a14d0f7e1c__read_document",
+  "tool_input": {
+    "cluster_id": 1266402,
+    "chunk_index": 0,
+    "chunk_size": 3000
+  },
+  "tool_response": [
+    {
+      "type": "text",
+      "text": "{\n  \"doc_type\": \"opinion\",\n  \"doc_id\": 1266402,\n  \"cluster_opinions\": [\n    {\n      \"id\": 1266402,\n      \"type\": \"010combined\",\n      \"author\": \"MlKELL\",\n      \"author_id\": 7169\n    }\n  ],\n  \"total_chars\": 29605,\n  \"chunk_index\": 0,\n  \"chunk_size\": 3000,\n  \"total_chunks\": 10,\n  \"text\": \"<?xml version=\\\"1.0\\\" encoding=\\\"utf-8\\\"?>\\n<opinion type=\\\"majority\\\">\\n<author id=\\\"b257-6\\\">\\n  MlKELL, Judge.\\n </author>\\n<p id=\\\"b257-7\\\">\\n  On April 13, 2002, after consuming alcohol at Jay\\u2019s Place Sports Bar and Lounge (the \\u201cBar\\u201d), Jeffery Fleming fell asleep while driving, and his vehicle crossed the median and struck an oncoming vehicle in which Mary Pierce was a passenger. Pierce brought an action against Gerald Becks d/b/a the Bar, alleging that the Bar was liable to her for injuries and damages caused by or resulting from Fleming\\u2019s intoxication under the Dram Shop Act (the \\u201cAct\\u201d).\\n  <a class=\\\"footnote\\\" href=\\\"#fn1\\\" id=\\\"fn1_ref\\\">\\n   1\\n  </a>\\n  Becks filed a motion for summary judgment, which the trial court denied. The trial court issued a certificate of immediate review, and we granted Becks\\u2019s application for interlocutory appeal.\\n </p>\\n<p id=\\\"b257-8\\\">\\n  \\u201cWhen reviewing the grant or denial of a motion for summary judgment, this Court conducts a de novo review of the law and the evidence, construing that evidence and all reasonable inferences and conclusions therefrom in the light most favorable to the nonmovant.\\u201d\\n  <a class=\\\"footnote\\\" href=\\\"#fn2\\\" id=\\\"fn2_ref\\\">\\n   2\\n  </a>\\n  Additionally,\\n </p>\\n<blockquote id=\\\"b257-9\\\">\\n  a party who will not bear the burden of proof at trial need not conclusively prove the opposite of each element of the non-moving party\\u2019s case. Rather, that party must demonstrate by reference to evidence in the record that there is an absence of evidence to support at least one essential element of the non-moving party\\u2019s case.\\n  <a class=\\\"footnote\\\" href=\\\"#fn3\\\" id=\\\"fn3_ref\\\">\\n   3\\n  </a>\\n</blockquote>\\n<p id=\\\"b257-10\\\">\\n  Because we conclude that there is an absence of evidence to satisfy the statutory requirement that the appellant knew that Fleming was soon to drive, we reverse the trial court\\u2019s denial of Becks\\u2019s motion for summary judgment.\\n </p>\\n<p id=\\\"b257-11\\\">\\n  The record in this case shows that Fleming arrived at the Bar between 9:30 and 10:30 p.m. on April 12, 2002, where he met his friends George Blunt and Devon Hood. Fleming deposed that he was at the Bar for approximately five to five-and-a-half hours and that during that time, he consumed two or three glasses of vodka with\\n  <span citation-index=\\\"1\\\" class=\\\"star-pagination\\\" label=\\\"230\\\"> \\n   *230\\n   </span>\\n  cranberry juice and two cups of beer. Fleming stated that he left the Bar at approximately 3:30 a.m., walking past the security guard and two police officers. He also recalled that he did not consume any alcohol during the hour before he left the Bar because he started to feel like he had drunk too much. Fleming could not recall if his keys were in his hand when he exited the Bar and did not know if he showed obvious signs of intoxication at that time but deposed that he was a \\u201clittle buzzed.\\u201d Nonetheless, he did not think that he was having any trouble walking when he left the Bar. He admitted, however, that he was under the influence of alcohol at the scene of the coll\"\n}"
+    }
+  ],
+  "tool_use_id": "toolu_01GwXqjci8tauLJUkyvC9dJj",
+  "duration_ms": 1570,
+  "mcp_server": {
+    "name": "1f46847a-abd9-418f-a14c-92a14d0f7e1c",
+    "source": "sdk"
+  }
+}

@@ -1,0 +1,62 @@
+# ---------------------------------------------------------------
+# Your work never leaves your machine. Everything below stays local.
+# ---------------------------------------------------------------
+
+# Your research matters, sources, notes, drafts, and audits
+research/
+matters/
+drafts/
+notes/
+sources/
+audit/
+*.docx
+*.pdf
+
+# Personal documents and planning notes
+docs/
+personal/
+private/
+
+# Claude configuration and instructions (machine- and person-specific)
+CLAUDE.md
+CLAUDE.local.md
+**/CLAUDE.md
+**/CLAUDE.local.md
+AGENTS.md
+.claude/
+.claude.json
+.mcp.json
+!plugins/*/.mcp.json
+.session/
+**/.session/
+mods/*/.claude-plugin/types/
+
+# Secrets and API keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local data mirrors (rebuild with scripts/)
+data/uscode/
+data/*.db
+data/*.zip
+
+# Reference repositories
+vendor/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+
+# OS and editors
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

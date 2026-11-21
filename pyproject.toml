@@ -1,0 +1,27 @@
+[project]
+name = "alr"
+version = "0.1.0"
+description = "AI-Powered Legal Research: plugin scripts, citation gate, ledger, and the uslaw MCP server"
+readme = "README.md"
+authors = [
+    { name = "Gleb Alikhver" }
+]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "courtlistener-api-client[mcp]>=1.2.0",
+    "courts-db>=0.10.27",
+    "eyecite>=2.7.8",
+    "fastmcp>=3.4.0",
+    "httpx>=0.28.1",
+    "jsonschema>=4.26.0",
+    "pytest>=9.1.1",
+    "python-docx>=1.2.0",
+    "pyyaml>=6.0.3",
+    "reporters-db>=3.2.67",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "plugins/legal-research/tests"]

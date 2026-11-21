@@ -1,0 +1,810 @@
+[
+ {
+  "id": "cl-cluster-75789",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "284",
+     "reporter": "F.3d",
+     "page": "1188",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "2002 U.S. App. LEXIS 3438",
+    "2002 WL 340670"
+   ],
+   "case_name": "Kim D. Lee v. Luis Ferraro",
+   "court_id": "ca11",
+   "date_filed": "2002-03-05",
+   "docket_number": "00-16054"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 75789
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-76731",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "385",
+     "reporter": "F.3d",
+     "page": "1324",
+     "type": null
+    },
+    {
+     "volume": "16",
+     "reporter": "Am. Disabilities Cas. (BNA)",
+     "page": "296",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "2004 U.S. App. LEXIS 20060"
+   ],
+   "case_name": "Access Now, Inc. v. Southwest Airlines Co.",
+   "court_id": "ca11",
+   "date_filed": "2004-09-24",
+   "docket_number": "19-11492"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 76731
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-117864",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "129",
+     "reporter": "L. Ed. 2d",
+     "page": "383",
+     "type": null
+    },
+    {
+     "volume": "114",
+     "reporter": "S. Ct.",
+     "page": "2364",
+     "type": null
+    },
+    {
+     "volume": "512",
+     "reporter": "U.S.",
+     "page": "477",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "1994 U.S. LEXIS 4824"
+   ],
+   "case_name": "Heck v. Humphrey",
+   "court_id": "scotus",
+   "date_filed": "1994-06-24",
+   "docket_number": "93-6188"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 117864
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-145738",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "167",
+     "reporter": "L. Ed. 2d",
+     "page": "686",
+     "type": null
+    },
+    {
+     "volume": "127",
+     "reporter": "S. Ct.",
+     "page": "1769",
+     "type": null
+    },
+    {
+     "volume": "550",
+     "reporter": "U.S.",
+     "page": "372",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "2007 U.S. LEXIS 4748"
+   ],
+   "case_name": "Scott v. Harris",
+   "court_id": "scotus",
+   "date_filed": "2007-04-30",
+   "docket_number": "05-1631"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 145738
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-145875",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "173",
+     "reporter": "L. Ed. 2d",
+     "page": "868",
+     "type": null
+    },
+    {
+     "volume": "129",
+     "reporter": "S. Ct.",
+     "page": "1937",
+     "type": null
+    },
+    {
+     "volume": "556",
+     "reporter": "U.S.",
+     "page": "662",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "2009 U.S. LEXIS 3472"
+   ],
+   "case_name": "Ashcroft v. Iqbal",
+   "court_id": "scotus",
+   "date_filed": "2009-05-18",
+   "docket_number": "07-1015"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 145875
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-145918",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "172",
+     "reporter": "L. Ed. 2d",
+     "page": "565",
+     "type": null
+    },
+    {
+     "volume": "129",
+     "reporter": "S. Ct.",
+     "page": "808",
+     "type": null
+    },
+    {
+     "volume": "555",
+     "reporter": "U.S.",
+     "page": "223",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "2009 U.S. LEXIS 591"
+   ],
+   "case_name": "Pearson v. Callahan",
+   "court_id": "scotus",
+   "date_filed": "2009-01-21",
+   "docket_number": "07-751"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 145918
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-149841",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "610",
+     "reporter": "F.3d",
+     "page": "701",
+     "type": null
+    },
+    {
+     "volume": "76",
+     "reporter": "Fed. R. Serv. 3d",
+     "page": "1566",
+     "type": null
+    },
+    {
+     "volume": "30",
+     "reporter": "I.E.R. Cas. (BNA)",
+     "page": "1544",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "2010 U.S. App. LEXIS 13377",
+    "93 Empl. Prac. Dec. (CCH) 43,922",
+    "2010 WL 2595585"
+   ],
+   "case_name": "Randall v. Scott",
+   "court_id": "ca11",
+   "date_filed": "2010-06-30",
+   "docket_number": "09-12862"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 149841
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-1087956",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "128",
+     "reporter": "L. Ed. 2d",
+     "page": "811",
+     "type": null
+    },
+    {
+     "volume": "114",
+     "reporter": "S. Ct.",
+     "page": "1970",
+     "type": null
+    },
+    {
+     "volume": "511",
+     "reporter": "U.S.",
+     "page": "825",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "1994 U.S. LEXIS 4274"
+   ],
+   "case_name": "Farmer v. Brennan",
+   "court_id": "scotus",
+   "date_filed": "1994-06-06",
+   "docket_number": "92-7247"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 1087956
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-1233119",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "405",
+     "reporter": "S.E.2d",
+     "page": "474",
+     "type": null
+    },
+    {
+     "volume": "261",
+     "reporter": "Ga.",
+     "page": "491",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "1991 Ga. LEXIS 321"
+   ],
+   "case_name": "Lau's Corp., Inc. v. Haskins",
+   "court_id": "ga",
+   "date_filed": "1991-06-27",
+   "docket_number": "S91G0720"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 1233119
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-1262558",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "397",
+     "reporter": "S.E.2d",
+     "page": "576",
+     "type": null
+    },
+    {
+     "volume": "197",
+     "reporter": "Ga. App.",
+     "page": "63",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "1990 Ga. App. LEXIS 1142"
+   ],
+   "case_name": "Strickland v. DeKalb Hospital Authority",
+   "court_id": "gactapp",
+   "date_filed": "1990-09-12",
+   "docket_number": "A90A1521, A90A1522, A90A1523"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 1262558
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-1287925",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "549",
+     "reporter": "S.E.2d",
+     "page": "341",
+     "type": null
+    },
+    {
+     "volume": "274",
+     "reporter": "Ga.",
+     "page": "122",
+     "type": null
+    },
+    {
+     "volume": "2001",
+     "reporter": "Fulton County D. Rep.",
+     "page": "1989",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "2001 Ga. LEXIS 523"
+   ],
+   "case_name": "Cameron v. Lang",
+   "court_id": "ga",
+   "date_filed": "2001-06-25",
+   "docket_number": "S00G1287, S00G1180"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 1287925
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-1292540",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "493",
+     "reporter": "S.E.2d",
+     "page": "540",
+     "type": null
+    },
+    {
+     "volume": "229",
+     "reporter": "Ga. App.",
+     "page": "160",
+     "type": null
+    },
+    {
+     "volume": "97",
+     "reporter": "Fulton County D. Rep.",
+     "page": "3861",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "1997 Ga. App. LEXIS 1282"
+   ],
+   "case_name": "Desai v. Silver Dollar City, Inc.",
+   "court_id": "gactapp",
+   "date_filed": "1997-10-15",
+   "docket_number": "A97A1963"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 1292540
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-1292587",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "493",
+     "reporter": "S.E.2d",
+     "page": "403",
+     "type": null
+    },
+    {
+     "volume": "268",
+     "reporter": "Ga.",
+     "page": "735",
+     "type": null
+    },
+    {
+     "volume": "97",
+     "reporter": "Fulton County D. Rep.",
+     "page": "4314",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "1997 Ga. LEXIS 752"
+   ],
+   "case_name": "Robinson v. Kroger Co.",
+   "court_id": "ga",
+   "date_filed": "1997-12-03",
+   "docket_number": "S97G0065"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 1292587
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-1305881",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "264",
+     "reporter": "Ga.",
+     "page": "732",
+     "type": null
+    },
+    {
+     "volume": "450",
+     "reporter": "S.E.2d",
+     "page": "671",
+     "type": null
+    },
+    {
+     "volume": "94",
+     "reporter": "Fulton County D. Rep.",
+     "page": "3978",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "1994 Ga. LEXIS 907"
+   ],
+   "case_name": "Banks v. ICI Americas, Inc.",
+   "court_id": "ga",
+   "date_filed": "1994-12-05",
+   "docket_number": "S94G0620"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 1305881
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-1317228",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "458",
+     "reporter": "S.E.2d",
+     "page": "876",
+     "type": null
+    },
+    {
+     "volume": "217",
+     "reporter": "Ga. App.",
+     "page": "688",
+     "type": null
+    },
+    {
+     "volume": "95",
+     "reporter": "Fulton County D. Rep.",
+     "page": "2267",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "1995 Ga. App. LEXIS 565"
+   ],
+   "case_name": "Hodge v. SADA Enterprises, Inc.",
+   "court_id": "gactapp",
+   "date_filed": "1995-06-30",
+   "docket_number": "A95A0022"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 1317228
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-1346679",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "697",
+     "reporter": "S.E.2d",
+     "page": "757",
+     "type": null
+    },
+    {
+     "volume": "287",
+     "reporter": "Ga.",
+     "page": "646",
+     "type": null
+    },
+    {
+     "volume": "2010",
+     "reporter": "Fulton County D. Rep.",
+     "page": "2574",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "2010 Ga. LEXIS 484"
+   ],
+   "case_name": "State v. Jackson",
+   "court_id": "ga",
+   "date_filed": "2010-06-28",
+   "docket_number": "S10A0070"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 1346679
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-1409267",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "409",
+     "reporter": "S.E.2d",
+     "page": "267",
+     "type": null
+    },
+    {
+     "volume": "200",
+     "reporter": "Ga. App.",
+     "page": "697",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "1991 Ga. App. LEXIS 1126"
+   ],
+   "case_name": "Mattox v. Metropolitan Atlanta Rapid Transit Authority",
+   "court_id": "gactapp",
+   "date_filed": "1991-07-11",
+   "docket_number": "A91A0893"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 1409267
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-2392116",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "697",
+     "reporter": "S.E.2d",
+     "page": "779",
+     "type": null
+    },
+    {
+     "volume": "287",
+     "reporter": "Ga.",
+     "page": "622",
+     "type": null
+    },
+    {
+     "volume": "2010",
+     "reporter": "Fulton County D. Rep.",
+     "page": "2564",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "2010 Ga. LEXIS 558"
+   ],
+   "case_name": "Cowart v. Widener",
+   "court_id": "ga",
+   "date_filed": "2010-07-12",
+   "docket_number": "S09G1177"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 2392116
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-2471309",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "678",
+     "reporter": "F. Supp. 2d",
+     "page": "1280",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "2009 U.S. Dist. LEXIS 73041",
+    "2009 WL 2568062"
+   ],
+   "case_name": "Anderson v. Dunbar Armored, Inc.",
+   "court_id": "gand",
+   "date_filed": "2009-08-18",
+   "docket_number": "Civil Action File 1:08-CV-3639-BBM"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 2471309
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-2753057",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "329",
+     "reporter": "Ga. App.",
+     "page": "515",
+     "type": null
+    },
+    {
+     "volume": "765",
+     "reporter": "S.E.2d",
+     "page": "687",
+     "type": null
+    }
+   ],
+   "other_cites": [],
+   "case_name": "Holcomb v. Long",
+   "court_id": "gactapp",
+   "date_filed": "2014-11-19",
+   "docket_number": "A14A0815"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 2753057
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-2815299",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "792",
+     "reporter": "F.3d",
+     "page": "1313",
+     "type": null
+    },
+    {
+     "volume": "92",
+     "reporter": "Fed. R. Serv. 3d",
+     "page": "378",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "2015 U.S. App. LEXIS 11750",
+    "2015 WL 4098270"
+   ],
+   "case_name": "Christopher J. Weiland v. Palm Beach County Sheriff's Office",
+   "court_id": "ca11",
+   "date_filed": "2015-07-08",
+   "docket_number": "13-14396"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 2815299
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-7320030",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [
+    {
+     "volume": "181",
+     "reporter": "F. Supp. 3d",
+     "page": "1089",
+     "type": null
+    }
+   ],
+   "other_cites": [
+    "2016 U.S. Dist. LEXIS 70307",
+    "2016 WL 3055898"
+   ],
+   "case_name": "Williams ex rel. Williams v. Fulton County School District",
+   "court_id": "gand",
+   "date_filed": "2016-03-31",
+   "docket_number": "CIVIL ACTION NO. 1:14-CV-0296-AT"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 7320030
+  },
+  "pagination": null
+ },
+ {
+  "id": "cl-cluster-10975757",
+  "type": "case",
+  "status": "retrieved",
+  "citation": {
+   "reporters": [],
+   "other_cites": [],
+   "case_name": "Lafargue v. State",
+   "court_id": "ga",
+   "date_filed": "2026-06-16",
+   "docket_number": "S26A0676"
+  },
+  "source": {
+   "system": "courtlistener",
+   "cluster_id": 10975757
+  },
+  "pagination": null
+ }
+]

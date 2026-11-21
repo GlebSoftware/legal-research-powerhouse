@@ -1,0 +1,536 @@
+{
+ "authorities": [
+  {
+   "id": "gc-code-51-12-9",
+   "type": "statute",
+   "status": "retrieved",
+   "source": {
+    "system": "georgiacommons",
+    "gc_id": "51-12-9",
+    "gc_collection": "code",
+    "url": "https://georgiacommons.org/code/51-12-9",
+    "tool": "code_lookup_sections"
+   },
+   "retrieved_at": "2026-10-16T18:28:27Z",
+   "sha256": "8b37fc17a9fe62d954e526668a4b41239efa10b3afb8a65fa9e7931b01bf7d7e",
+   "local_path": "sources/gc-code-51-12-9.md",
+   "citation": {
+    "cite_as": "O.C.G.A. § 51-12-9 (2025)",
+    "current_through": "Including Acts of the 2025 Regular Session of the General Assembly",
+    "corpus_version": "2025-supplement-89aa39ab3c68",
+    "version": "the only printed version",
+    "in_force": true,
+    "code": "O.C.G.A.",
+    "section": "51-12-9",
+    "heading": "How remoteness ascertained."
+   },
+   "verification": {
+    "existence": "verified",
+    "name_match": null,
+    "method": "georgiacommons:code_lookup_sections",
+    "checked_at": "2026-10-16T18:28:27Z"
+   },
+   "first_seen_at": "2026-10-16T18:28:27Z",
+   "propositions": [],
+   "quote_checks": [],
+   "treatment": {
+    "level": "none",
+    "verdict": null,
+    "confidence": null,
+    "manual_keycite": {
+     "required": true,
+     "done": false,
+     "result": null,
+     "date": null
+    }
+   }
+  },
+  {
+   "id": "cl-cluster-10367807",
+   "type": "case",
+   "status": "retrieved",
+   "source": {
+    "system": "courtlistener",
+    "cluster_id": 10367807,
+    "opinion_id": 10834395,
+    "opinion_ids": [
+     10834395,
+     4683308
+    ],
+    "url": "https://www.courtlistener.com/opinion/10367807/johnson-v-avis-rent-a-car-system-llc-two-cases/",
+    "tool": "search"
+   },
+   "first_seen_at": "2026-10-16T18:29:24Z",
+   "retrieved_at": "2026-10-16T18:39:40Z",
+   "sha256": "67d822415fc0b3174c28ca9f739e5ceb3028cbb251ffd97cbb0bd3d9474f95fd",
+   "local_path": "sources/cl-cluster-10367807.html",
+   "pagination": false,
+   "citation": {
+    "reporters": [
+     {
+      "volume": "858",
+      "reporter": "S.E.2d",
+      "page": "23",
+      "type": 3
+     },
+     {
+      "volume": "311",
+      "reporter": "Ga.",
+      "page": "588",
+      "type": 2
+     }
+    ],
+    "other_cites": [],
+    "case_name": "JOHNSON v. AVIS RENT a CAR SYSTEM, LLC (Two Cases)",
+    "court_id": "ga",
+    "date_filed": "2021-05-03"
+   },
+   "verification": {
+    "existence": "verified",
+    "name_match": null,
+    "method": "read_document",
+    "checked_at": "2026-10-16T18:39:40Z"
+   },
+   "treatment": {
+    "level": "lightweight",
+    "verdict": null,
+    "confidence": null,
+    "manual_keycite": {
+     "required": true,
+     "done": false,
+     "result": null,
+     "date": null
+    },
+    "citing_count": 15,
+    "citing_listed": 15,
+    "screen": {
+     "level": "lightweight",
+     "screened_at": "2026-10-16T19:19:17Z",
+     "citing_count": 15,
+     "citing_listed": 15,
+     "sampled": 10,
+     "invalidating_citers": [
+      "Bell v. State",
+      "MAYNARD v. SNAPCHAT, INC",
+      "McEntyre v. Sams East, Inc",
+      "Melancon v. State"
+     ],
+     "most_recent_citing": "2024-10-23",
+     "flags": [
+      {
+       "tier": "B",
+       "phrase": "question",
+       "citing_opinion_id": 11195517,
+       "citing_cluster": 10728932,
+       "citing_case": "ELZABAD FERGUSON, JR. v. BLAIRE BOWERS",
+       "court_id": "gactapp",
+       "date": "2024-03-15",
+       "separate_opinion": false,
+       "passage": "what happened” sense, and an evaluation of whether the facts measure up to the legal standard set by precedent. And, while proximate cause is ordinarily a jury question, it will be determined by the court as a matter of law in plain and undisputed cases.11 11 (Citations and punctuation omitted; emphasis supplied.) Johnson v. A"
+      },
+      {
+       "tier": "B",
+       "phrase": "questions",
+       "citing_opinion_id": 11195517,
+       "citing_cluster": 10728932,
+       "citing_case": "ELZABAD FERGUSON, JR. v. BLAIRE BOWERS",
+       "court_id": "gactapp",
+       "date": "2024-03-15",
+       "separate_opinion": false,
+       "passage": "LLC, 311 Ga. 588, 592-593 ( 858 SE2d 23 ) (2021) … is supplied.) Johnson v. Avis Rent A Car Systems, LLC, 311 Ga. 588, 592-593 ( 858 SE2d 23 ) (2021). 10 “Jury questions on proximate cause do not exist simply because it may be ‘possi"
+      },
+      {
+       "tier": "B",
+       "phrase": "question",
+       "citing_opinion_id": 11195337,
+       "citing_cluster": 10728752,
+       "citing_case": "CHANTE AMOS v. CREATIVE CONSULTING SERVICES, INC.",
+       "court_id": "gactapp",
+       "date": "2024-02-26",
+       "separate_opinion": false,
+       "passage": "the facts measure up to the legal standard set by precedent. (Citations and punctuation omitted.) Johnson, supra, 311 Ga. at 593 . “And it is generally a jury question as to whether or not such negligence pr … determination of whether proximate cause exists requires both factfinding in the"
+      }
+     ],
+     "escalate": true,
+     "summary": "Screened (lightweight): 10 of 15 listed citing opinions read in passage; 3 Tier A/B signal(s), escalate to the heavyweight check. A clean screen is not a finding of validity."
+    },
+    "sampled": 10,
+    "flags": [
+     {
+      "tier": "B",
+      "phrase": "question",
+      "citing_opinion_id": 11195517,
+      "citing_cluster": 10728932,
+      "citing_case": "ELZABAD FERGUSON, JR. v. BLAIRE BOWERS",
+      "court_id": "gactapp",
+      "date": "2024-03-15",
+      "separate_opinion": false,
+      "passage": "what happened” sense, and an evaluation of whether the facts measure up to the legal standard set by precedent. And, while proximate cause is ordinarily a jury question, it will be determined by the court as a matter of law in plain and undisputed cases.11 11 (Citations and punctuation omitted; emphasis supplied.) Johnson v. A"
+     },
+     {
+      "tier": "B",
+      "phrase": "questions",
+      "citing_opinion_id": 11195517,
+      "citing_cluster": 10728932,
+      "citing_case": "ELZABAD FERGUSON, JR. v. BLAIRE BOWERS",
+      "court_id": "gactapp",
+      "date": "2024-03-15",
+      "separate_opinion": false,
+      "passage": "LLC, 311 Ga. 588, 592-593 ( 858 SE2d 23 ) (2021) … is supplied.) Johnson v. Avis Rent A Car Systems, LLC, 311 Ga. 588, 592-593 ( 858 SE2d 23 ) (2021). 10 “Jury questions on proximate cause do not exist simply because it may be ‘possi"
+     },
+     {
+      "tier": "B",
+      "phrase": "question",
+      "citing_opinion_id": 11195337,
+      "citing_cluster": 10728752,
+      "citing_case": "CHANTE AMOS v. CREATIVE CONSULTING SERVICES, INC.",
+      "court_id": "gactapp",
+      "date": "2024-02-26",
+      "separate_opinion": false,
+      "passage": "the facts measure up to the legal standard set by precedent. (Citations and punctuation omitted.) Johnson, supra, 311 Ga. at 593 . “And it is generally a jury question as to whether or not such negligence pr … determination of whether proximate cause exists requires both factfinding in the"
+     }
+    ]
+   },
+   "propositions": [],
+   "quote_checks": [],
+   "files": [
+    "sources/cl-cluster-10367807.html"
+   ],
+   "opinions_meta": []
+  },
+  {
+   "id": "cl-cluster-5749642",
+   "type": "case",
+   "status": "retrieved",
+   "source": {
+    "system": "courtlistener",
+    "cluster_id": 5749642,
+    "opinion_id": 5601830,
+    "opinion_ids": [
+     5601830
+    ],
+    "url": null,
+    "tool": "search"
+   },
+   "first_seen_at": "2026-10-16T18:29:42Z",
+   "retrieved_at": "2026-10-16T18:30:40Z",
+   "sha256": "9929eb4ab651fc0dbe2725c35fc0d7fcaa22c3e985be3e71fb4a9218fc4c9846",
+   "local_path": "sources/cl-cluster-5749642.html",
+   "pagination": true,
+   "citation": {
+    "reporters": [
+     {
+      "volume": "300",
+      "reporter": "Ga.",
+      "page": "840",
+      "type": 2
+     },
+     {
+      "volume": "797",
+      "reporter": "S.E.2d",
+      "page": "87",
+      "type": 3
+     }
+    ],
+    "other_cites": [
+     "2017 WL 764080",
+     "2017 Ga. LEXIS 101"
+    ],
+    "case_name": "Goldstein, Garber & Salama, LLC v. J. B.",
+    "court_id": "ga",
+    "date_filed": "2017-02-27",
+    "docket_number": "S16G0744"
+   },
+   "verification": {
+    "existence": "verified",
+    "name_match": null,
+    "method": "read_document",
+    "checked_at": "2026-10-16T18:30:40Z"
+   },
+   "treatment": {
+    "level": "heavyweight",
+    "verdict": "VALID",
+    "confidence": "moderate",
+    "manual_keycite": {
+     "required": true,
+     "done": false,
+     "result": null,
+     "date": null
+    },
+    "citing_count": 6,
+    "citing_listed": 35,
+    "screen": {
+     "level": "lightweight",
+     "screened_at": "2026-10-16T19:40:50Z",
+     "citing_count": 6,
+     "citing_listed": 35,
+     "sampled": 29,
+     "invalidating_citers": [
+      "COLLINS v. ATHENS ORTHOPEDIC CLINIC, P.A",
+      "JOHNSON v. AVIS RENT a CAR SYSTEM, LLC (Two Cases)",
+      "MAYNARD v. SNAPCHAT, INC",
+      "McEntyre v. Sams East, Inc",
+      "TYNER v. MATTA-TRONSCOSO"
+     ],
+     "most_recent_citing": "2025-10-31",
+     "flags": [
+      {
+       "tier": "B",
+       "phrase": "questions",
+       "citing_opinion_id": 11146511,
+       "citing_cluster": 10679924,
+       "citing_case": "MAYNARD v. SNAPCHAT, INC",
+       "court_id": "ga",
+       "date": "2022-03-15",
+       "separate_opinion": false,
+       "passage": "act by a third party is the alleged intervening cause. See, e.g., Goldstein, Garber & Salama, LLC v. J. B., 300 Ga. 840, 843 ( 797 SE2d 87 ) (2017) (“Although questions of the foreseeability of intervening criminal acts … leged intervening cause. See, e.g., Goldstein, Garber & Salama,"
+      },
+      {
+       "tier": "B",
+       "phrase": "question",
+       "citing_opinion_id": 10834395,
+       "citing_cluster": 10367807,
+       "citing_case": "JOHNSON v. AVIS RENT a CAR SYSTEM, LLC (Two Cases)",
+       "court_id": "ga",
+       "date": "2021-05-03",
+       "separate_opinion": false,
+       "passage": "LLC v. J. B., 300 Ga. 840, 841-842 (1) ( 797 SE2d 87 … 12 Goldstein, Garber & Salama, LLC v. J. B., 300 Ga. 840, 841-842 (1) ( 797 SE2d 87 ) (2017). Thus, the question presented in this case is whether, after the defendants negligently allowed Perry to gain access to a car key and find a way to drive an SUV past the locked ga"
+      },
+      {
+       "tier": "B",
+       "phrase": "Questions",
+       "citing_opinion_id": 11194582,
+       "citing_cluster": 10727997,
+       "citing_case": "MEI R. WANG v. RODERICK O. DUKES",
+       "court_id": "gactapp",
+       "date": "2023-06-27",
+       "separate_opinion": false,
+       "passage": "alpable, and indisputable that the respondent cannot present any slight evidence on each essential element of the action in rebuttal to create a jury issue.”3 “Questions of negligence, diligence, contributory 2 See Goldstein, Garber & Salama, LLC v. J. B., 300 Ga. 840, 841 (1) ( … adjudication except where the evidence is plain"
+      },
+      {
+       "tier": "C",
+       "phrase": "reversed",
+       "citing_opinion_id": 11193735,
+       "citing_cluster": 10727150,
+       "citing_case": "Wentworth Maynard v. Snapchat, Inc.",
+       "court_id": "gactapp",
+       "date": "2023-01-25",
+       "separate_opinion": false,
+       "passage": "e intervening act.7 Accordingly, based on the record before us, the trial court erred by granting Snap’s motion to dismiss on proximate cause grounds. Judgment reversed. McFadden, P. J., and Hodges, J., concur. 7 (Citations and punctuation omitted.) Goldstein, Garber & Salama, LLC v. J. B., 300 Ga. 840, 841-842 ( … ntervening"
+      },
+      {
+       "tier": "B",
+       "phrase": "questions",
+       "citing_opinion_id": 6323489,
+       "citing_cluster": 6451378,
+       "citing_case": "MAYNARD v. SNAPCHAT, INC",
+       "court_id": "ga",
+       "date": "2022-03-15",
+       "separate_opinion": false,
+       "passage": "eged intervening cause. See, e.g., Goldstein, Garber & Salama, LLC v. J.B., 300 Ga. 840, 843 ( 797 SE2d 87 … 300 Ga. 840, 843 ( 797 SE2d 87 ) (2017) (“Although questions of the foreseeability of intervening criminal acts are usually for the factfinder, when, as here, the evidence on the"
+      },
+      {
+       "tier": "B",
+       "phrase": "question",
+       "citing_opinion_id": 11146661,
+       "citing_cluster": null,
+       "citing_case": null,
+       "court_id": null,
+       "date": null,
+       "separate_opinion": false,
+       "passage": "f harm that occurred was a foreseeable result, or a “probable or natural consequence[ ]” of, that breach. Salama, 300 Ga. at 842 (1). Here, there can be little question that a jury would be authorized to find that the … urred was a foreseeable result, or a"
+      },
+      {
+       "tier": "B",
+       "phrase": "question",
+       "citing_opinion_id": 7802877,
+       "citing_cluster": 7859011,
+       "citing_case": "Monica John v. Battle Station, LLC",
+       "court_id": "gactapp",
+       "date": "2022-08-23",
+       "separate_opinion": false,
+       "passage": "trial court erred when it ruled that the protruding rebar was an open and obvious static condition. We agree. The question of whether a static condition was open and obvious implicates the duty and breach elements of a negligence claim. See Goldstein, Garber & Salama, LLC v. J. B.,"
+      }
+     ],
+     "escalate": true,
+     "summary": "Screened (lightweight): 29 of 35 listed citing opinions read in passage; 6 Tier A/B signal(s), escalate to the heavyweight check. A clean screen is not a finding of validity."
+    },
+    "sampled": 29,
+    "flags": [
+     {
+      "tier": "B",
+      "phrase": "questions",
+      "citing_opinion_id": 11146511,
+      "citing_cluster": 10679924,
+      "citing_case": "MAYNARD v. SNAPCHAT, INC",
+      "court_id": "ga",
+      "date": "2022-03-15",
+      "separate_opinion": false,
+      "passage": "act by a third party is the alleged intervening cause. See, e.g., Goldstein, Garber & Salama, LLC v. J. B., 300 Ga. 840, 843 ( 797 SE2d 87 ) (2017) (“Although questions of the foreseeability of intervening criminal acts … leged intervening cause. See, e.g., Goldstein, Garber & Salama,"
+     },
+     {
+      "tier": "B",
+      "phrase": "question",
+      "citing_opinion_id": 10834395,
+      "citing_cluster": 10367807,
+      "citing_case": "JOHNSON v. AVIS RENT a CAR SYSTEM, LLC (Two Cases)",
+      "court_id": "ga",
+      "date": "2021-05-03",
+      "separate_opinion": false,
+      "passage": "LLC v. J. B., 300 Ga. 840, 841-842 (1) ( 797 SE2d 87 … 12 Goldstein, Garber & Salama, LLC v. J. B., 300 Ga. 840, 841-842 (1) ( 797 SE2d 87 ) (2017). Thus, the question presented in this case is whether, after the defendants negligently allowed Perry to gain access to a car key and find a way to drive an SUV past the locked ga"
+     },
+     {
+      "tier": "B",
+      "phrase": "Questions",
+      "citing_opinion_id": 11194582,
+      "citing_cluster": 10727997,
+      "citing_case": "MEI R. WANG v. RODERICK O. DUKES",
+      "court_id": "gactapp",
+      "date": "2023-06-27",
+      "separate_opinion": false,
+      "passage": "alpable, and indisputable that the respondent cannot present any slight evidence on each essential element of the action in rebuttal to create a jury issue.”3 “Questions of negligence, diligence, contributory 2 See Goldstein, Garber & Salama, LLC v. J. B., 300 Ga. 840, 841 (1) ( … adjudication except where the evidence is plain"
+     },
+     {
+      "tier": "C",
+      "phrase": "reversed",
+      "citing_opinion_id": 11193735,
+      "citing_cluster": 10727150,
+      "citing_case": "Wentworth Maynard v. Snapchat, Inc.",
+      "court_id": "gactapp",
+      "date": "2023-01-25",
+      "separate_opinion": false,
+      "passage": "e intervening act.7 Accordingly, based on the record before us, the trial court erred by granting Snap’s motion to dismiss on proximate cause grounds. Judgment reversed. McFadden, P. J., and Hodges, J., concur. 7 (Citations and punctuation omitted.) Goldstein, Garber & Salama, LLC v. J. B., 300 Ga. 840, 841-842 ( … ntervening"
+     },
+     {
+      "tier": "B",
+      "phrase": "questions",
+      "citing_opinion_id": 6323489,
+      "citing_cluster": 6451378,
+      "citing_case": "MAYNARD v. SNAPCHAT, INC",
+      "court_id": "ga",
+      "date": "2022-03-15",
+      "separate_opinion": false,
+      "passage": "eged intervening cause. See, e.g., Goldstein, Garber & Salama, LLC v. J.B., 300 Ga. 840, 843 ( 797 SE2d 87 … 300 Ga. 840, 843 ( 797 SE2d 87 ) (2017) (“Although questions of the foreseeability of intervening criminal acts are usually for the factfinder, when, as here, the evidence on the"
+     },
+     {
+      "tier": "B",
+      "phrase": "question",
+      "citing_opinion_id": 11146661,
+      "citing_cluster": null,
+      "citing_case": null,
+      "court_id": null,
+      "date": null,
+      "separate_opinion": false,
+      "passage": "f harm that occurred was a foreseeable result, or a “probable or natural consequence[ ]” of, that breach. Salama, 300 Ga. at 842 (1). Here, there can be little question that a jury would be authorized to find that the … urred was a foreseeable result, or a"
+     },
+     {
+      "tier": "B",
+      "phrase": "question",
+      "citing_opinion_id": 7802877,
+      "citing_cluster": 7859011,
+      "citing_case": "Monica John v. Battle Station, LLC",
+      "court_id": "gactapp",
+      "date": "2022-08-23",
+      "separate_opinion": false,
+      "passage": "trial court erred when it ruled that the protruding rebar was an open and obvious static condition. We agree. The question of whether a static condition was open and obvious implicates the duty and breach elements of a negligence claim. See Goldstein, Garber & Salama, LLC v. J. B.,"
+     }
+    ],
+    "proposition": "An intervening and independent wrongful act of a third person that produces the injury is treated as the proximate cause and insulates the defendant's negligence, unless the defendant had reasonable grounds for apprehending that the wrongful act would be committed; foreseeability of intervening criminal acts is usually for the factfinder, and the court decides it when the evidence is plain and undisputable (300 Ga. at 841-843).",
+    "checked_at": "2026-10-16T19:41:53Z",
+    "report_path": "research/torts/proximate-cause-georgia/notes/cl-cluster-5749642-validity.md",
+    "replacement": null,
+    "report": "CASE: Goldstein, Garber & Salama, LLC v. J. B., 300 Ga. 840, 797 S.E.2d 87 (2017) (S16G0744) [Verified (heavyweight)]\nPROPOSITION CHECKED: An intervening and independent wrongful act of a third person that produces the injury is treated as the proximate cause and insulates the defendant's negligence, unless the defendant had reasonable grounds for apprehending that the wrongful act would be committed; foreseeability of intervening criminal acts is usually for the factfinder, and the court decides it when the evidence is plain and undisputable (300 Ga. at 841-843).\nJURISDICTION: Georgia state courts (Supreme Court of Georgia; Court of Appeals of Georgia)\nSTATUS: VALID, confidence moderate\nDIRECT HISTORY: Docket S16G0744 holds cluster 5749642 and a same-day \"FINAL COPY\" (cluster 10354572) with identical Division 1 text. Reconsideration denied March 30, 2017. On remand the Court of Appeals vacated its opinion and adopted this one: Goldstein, Garber & Salama, LLC v. J. B., 344 Ga. App. 110, 808 S.E.2d 913 (2017) [Not validated]. No further appeal located.\nADVERSE TREATMENT: None located. Jordan v. Everson, 302 Ga. 364, 365, 806 S.E.2d 533 (2017) [Not validated] explains the rule: \"there is no requirement in Georgia that an intervening act be 'wrongful or negligent' to break the causal chain,\" and the Court of Appeals \"read too much into that sentence\" from Goldstein, which addressed \"an indisputably wrongful act.\" Cleveland v. Team RTR2, LLC (Ga. Ct. App. Feb. 3, 2021) [Not validated] distinguished Goldstein because it \"did not involve previous similar crimes on the premises.\" The screen's Tier B and C hits are quotations: Maynard v. Snapchat, Inc., 313 Ga. 533 (2) (2022) [Not validated] follows the rule at 841 alongside Jordan; its \"questions\" hit at 843 sits in a dissent joined by LaGrua, J. Johnson v. Avis Rent A Car Sys., LLC, 311 Ga. 588, 592-593, 858 S.E.2d 23 (2021) [Screened (lightweight)] quotes 841-842 and applies it. Wang v. Dukes (Ga. Ct. App. June 27, 2023) [Not validated] cites 841 for the four elements. \"Judgment reversed\" in Maynard v. Snapchat, Inc. (Ga. Ct. App. Jan. 25, 2023) [Not validated] reverses the trial court's dismissal and follows 841-842.\nAT-RISK FINDINGS: Upstream clean: Ontario Sewing Mach. Co. v. Smith, 275 Ga. 683 (2002); Munroe v. Universal Health Servs., Inc., 277 Ga. 861 (2004); Johnson v. American Nat'l Red Cross, 276 Ga. 270 (2003); Atlanta Obstetrics & Gynecology Grp. v. Coleman, 260 Ga. 569 (1990) [all Not validated]. Two context limits. (1) Ga. CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718 (II) (2023) [Not validated] places crime foreseeability in premises cases within the OCGA § 51-3-1 duty, keeps Goldstein at 842 for proximate cause, and lets the court rule \"where no rational juror could determine the issue in favor of the non-moving party.\" (2) OCGA §§ 51-3-50 and 51-3-51 (Ga. L. 2025, p. 19, § 6, SB 68, eff. April 21, 2025) set statutory foreseeability proof for negligent-security claims against owners, occupiers, and security contractors. Neither reaches Goldstein's professional-supervision setting.\nRECENT APPLICATION: Venetian Hills Apartments, LLC v. Hughes, No. A25A1091 (Ga. Ct. App. Oct. 31, 2025) [Not validated], citing 300 Ga. at 842 to hold \"the jury was authorized to find that an intervening act did not insulate the landlord from liability\" (judgment vacated on a charge error).\nIF UNUSABLE, WHAT REPLACES IT: n/a. Cite Jordan v. Everson with Goldstein whenever the memo states the rule, so the word \"wrongful\" reads as descriptive.\nCOVERAGE: citing_count 35; 35 listed by the citeCount sweep; 29 read in passage by the screen plus 20 search_document passages on invalidating-court citers and word-search hits; full or chunked reads of Jordan, Maynard (ga and Ga. App.), Wang, Carmichael, Venetian Hills, Cleveland, the final copy, and the remand; Johnson v. Avis from saved text. Invalidating courts swept: ga, scotus (5 Supreme Court of Georgia decisions, no SCOTUS citers). Word searches: case name, reporter cites, case name with negative-treatment terms. Legs 1 to 4 run; Leg 4 semantic query (ga, since 2016) and Georgia Commons. Jordan and Carmichael surfaced only through word searches; the cites: sweep missed both, and the scorer did not flag Jordan's \"did not overrule\" or Cleveland's \"distinguishable.\" About 53 CourtListener requests. Confidence caps at moderate: no tiered ranking, no curated flag co-occurrence, no truncation reporting. The user's manual KeyCite remains required.\n"
+   },
+   "propositions": [],
+   "quote_checks": [],
+   "files": [
+    "sources/cl-cluster-5749642.html"
+   ],
+   "opinions_meta": [
+    {
+     "id": 5601830,
+     "type": "020lead",
+     "author": "Hines"
+    }
+   ]
+  },
+  {
+   "id": "sec-SR-001",
+   "type": "secondary",
+   "secondary_kind": "restatement",
+   "request_id": "SR-001",
+   "status": "requested",
+   "source": {
+    "system": "westlaw-manual",
+    "retrieved_by": null,
+    "retrieved_at": null,
+    "westlaw_citation": null,
+    "tool": "secondary-request"
+   },
+   "first_seen_at": "2026-10-16T18:40:40Z",
+   "citation": {
+    "bluebook": null,
+    "pin": null
+   },
+   "verification": {
+    "existence": "unverified",
+    "method": null,
+    "checked_at": null
+   },
+   "request": {
+    "issue": "Issue 3: intervening criminal act of a third party and proximate cause (Georgia)",
+    "proposition": "whether and when a third party's intentional crime is a superseding cause that relieves the original negligent actor of liability, and the foreseeability exception",
+    "triggers": [
+     1
+    ],
+    "free_sources_tried": "CourtListener full-text search of Supreme Court of Georgia and Court of Appeals of Georgia opinions for the Restatement (Second) of Torts superseding-cause sections (sections 440, 442, 448, 449) returned one opinion, SecureAlert, Inc. v. Boggs, 815 S.E.2d 156 (Ga. Ct. App. 2018), which cites section 448 in a footnote without applying it. The Georgia cases read (Goldstein, Garber & Salama, LLC v. J. B., 300 Ga. 840 (2017); Johnson v. Avis Rent A Car System, LLC, 311 Ga. 588 (2021)) state the rule through Ontario Sewing Machine Co. v. Smith and do not cite the Restatement for it.",
+    "secondary_kind": "restatement",
+    "system": "westlaw-manual",
+    "ranked_source_types": [
+     "Restatements of the Law, torts: the superseding-cause sections on intervening crimes, with comments and illustrations (locate).",
+     "Texts & Treatises: a torts treatise chapter on superseding cause and intervening criminal acts (locate).",
+     "Georgia practice material on proximate cause and intervening criminal acts (locate).",
+     "Encyclopedias > American Jurisprudence: negligence, intervening and superseding cause (locate)."
+    ],
+    "searches": [
+     {
+      "label": "A",
+      "method": "Precision plain language",
+      "content": "Secondary Sources",
+      "jurisdiction": "Georgia plus All States",
+      "query": "intervening criminal act of a third party superseding cause foreseeability"
+     },
+     {
+      "label": "B",
+      "method": "Terms and Connectors",
+      "content": "Secondary Sources > Restatements of the Law",
+      "query": "supersed! /p crim! /p foresee!"
+     },
+     {
+      "label": "C",
+      "method": "Advanced Search",
+      "content": "Secondary Sources > Texts & Treatises",
+      "query": "(\"superseding cause\" OR \"intervening cause\") /p (crim! OR \"third person\") /p foresee!"
+     },
+     {
+      "label": "D",
+      "method": "Navigation",
+      "path": "Secondary Sources > Encyclopedias > American Jurisprudence: search the negligence topic for intervening and superseding cause (confirm on screen)"
+     }
+    ],
+    "known_pointers": [
+     {
+      "pointer": "Restatement (Second) of Torts § 448",
+      "named_in": [
+       "cl-cluster-4503650"
+      ]
+     }
+    ],
+    "assignment_supplied": false
+   },
+   "disclosure": null,
+   "propositions": [],
+   "quote_checks": []
+  }
+ ]
+}
